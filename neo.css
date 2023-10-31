@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('nctbg.png');
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+#h2-container {
+    text-align: center;
+    background-color: rgb(230, 255, 230);
+    width: 300px;
+    border: 9px solid #99ff99;
+    padding: none;
+    color: black;
+    text-decoration: none;
+    border-radius: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+}
+
+#header {
+    padding: 10px;
+    background-color: #4dff4d;
+}
+
+#logo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#header-name {
+    font-size: 50px;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px #262626;
+}
+
+#nav-bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+#nav-bar li {
+    display: inline;
+    margin-right: 40px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#nav-bar a:hover {
+    color: #00004d;
+}
+
+.dropdown .dropbtn {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: light;
+    font-size: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4dff4d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0; 
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 7px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+#picon {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+img {
+    max-width: 400%;
+    max-height: 100%;
+    display: flex;
+    transition: transform 0.3s; /* Add a transition for image dilation */
+}
+
+img:hover {
+    transform: scale(1.2); /* Enlarge the image by 20% when hovered */
+}
+
+#NCT127, #NCTDREAM, #WAYV {
+    text-align: center;
+    background-color: rgb(230, 255, 230);
+    width: 300px;
+    border: 2px groove #001a00;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    margin: 55px;
+}
+
+.box {
+    background-color: white;
+    border: 2px solid #001a00;
+    padding: 0px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+#NCT127 img, #NCTDREAM img, #WAYV img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.buttons {
+    background-color: white;
+    border: 2px solid #001a00;
+    padding: 0;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto; 
+}
+
+#NCT127:hover, #NCTDREAM:hover, #WAYV:hover, .dropdown:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('nctbg.png');
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+#h2-container {
+    text-align: center;
+    background-color: rgb(230, 255, 230);
+    width: 300px;
+    border: 9px solid #99ff99;
+    padding: none;
+    color: black;
+    text-decoration: none;
+    border-radius: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+}
+
+#header {
+    padding: 10px;
+    background-color: #4dff4d;
+}
+
+#logo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#header-name {
+    font-size: 50px;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px #262626;
+}
+
+#nav-bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+#nav-bar li {
+    display: inline;
+    margin-right: 40px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#nav-bar a:hover {
+    color: #00004d;
+}
+
+#TAEYONG, #TAEIL, #JOHNNY, #YUTA, #DOYOUNG, #JAEHYUN, #JUNGWOO, #MARK, #HAECHAN {
+    text-align: center;
+    background-color: rgb(230, 255, 230);
+    width: 300px;
+    height: 570px;
+    border: 2px groove #001a00;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    margin: 55px;
+}
+
+#TAEYONG img, #TAEIL img, #JOHNNY img, #YUTA img, #DOYOUNG img, #JAEHYUN img, #JUNGWOO img, #MARK img, #HAECHAN img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    transition: transform 0.3s, box-shadow 0.3s; /* Add a transition for the container effect */
+}
+
+#TAEYONG:hover, #TAEIL:hover, #JOHNNY:hover, #YUTA:hover, #DOYOUNG:hover, #JAEHYUN:hover, #JUNGWOO:hover, #MARK:hover, #HAECHAN:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+    background-color: white;
+    border: 2px solid #001a00;
+    padding: 0; /* Change 'none' to '0' to remove padding */
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.box img {
+    max-width: 5%;
+    max-height: 10%;
+}
+
+ul {
+    text-align: left;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #00b300;
+}
+
+p {
+    font-weight: bold;
+}
+
